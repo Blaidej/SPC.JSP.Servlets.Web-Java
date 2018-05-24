@@ -1,0 +1,168 @@
+/*
+This is the Style sheet for MasterMind
+*/
+/* 
+    Created on : May 8, 2018, 8:26:29 PM
+    Author     : Blaine Jacques
+*/
+/***************HTML styled elements ****************/
+body{
+    background-color:#FCFAFC;
+    
+}
+td{
+    width: 60px;
+    height: 21px;
+    color: #FFFFFF;
+}
+button{
+    color:#FFFFFF;
+    background-color: #0074D9;
+    border: none;
+    padding: 12px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/***********Custom class styles*************/
+
+.styled-select {
+  
+   height: 120px;
+   overflow: hidden;
+   width: 55px;
+}
+
+.styled-select select {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 120px;
+   padding: 5px; 
+   width: 55px;
+}
+.semi-square {
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   border-radius: 5px;
+}
+.blue    { background-color: #23B5D3; }
+
+
+.wholeboard{
+    position:relative;
+    background-color: #23B5D3;
+    width:410px;
+    height:700px;
+    padding: 80px;
+
+    border: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+.gameboard{
+    position: absolute;
+    left:40px;
+    
+    text-align: center;
+    padding: 2px 0;
+    font-size: 15px;
+
+}
+.keyPegBoard{
+    position: absolute;
+    left:306px;
+    text-align: center;
+    padding: 2px 0;
+    font-size: 15px;
+
+}
+.info{
+    top:660px;
+    position: absolute;
+    text-align: center;
+}
+.pegTable{
+   
+}
+.keyPegTable{
+    
+}
+
+.Error{
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+
+/************************** Key Pegs CSS **********************************/
+.NoKey{
+    background-color:#A0A0A0;
+    color:#A0A0A0;
+    border-radius: 11px;
+    width: 21px;
+    height: 21px;
+}
+.Wh{
+    background-color:white;
+    color:white;
+    border-radius: 11px;
+    width: 21px;
+    height: 21px;
+}
+.R{
+    background-color:red;
+    color:red;
+    border-radius: 11px;
+    width: 21px;
+    height: 21px;
+}
+/************************** Peg CSS **********************************/
+.NoPeg{
+    background-color:#A0A0A0;
+    color:#A0A0A0;
+    border-radius: 10px;
+    width: 60px;
+    height: 21px;
+    
+}
+.M{
+    background-color: #F012BE;
+    color: #F012BE;
+    color: #F012BE;
+    border-radius: 10px;
+    height: 21px;
+}
+.G{
+    background-color:#8EA604;
+    color:#8EA604;
+    border-radius: 10px;
+    height: 21px;
+}
+.O{
+    background-color:#FFB200;
+    color:#FFB200;
+    border-radius: 10px;
+    height: 21px;
+}
+.Y{
+    background-color:#FFE41C;
+    color:#FFE41C;
+    border-radius: 10px;
+    height: 21px;
+}
+.P{
+    background-color:#9B30F2;
+    color:#9B30F2;
+    border-radius: 10px;
+    height: 21px;
+}
+.B{
+    background-color:#094074;
+    color:#094074;
+    border-radius: 10px;
+    height: 21px;
+}
+
+
+
